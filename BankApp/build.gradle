@@ -4,14 +4,14 @@ apply plugin : 'application'
 
 //apply plugin : 'sonar-runner'
 
-//repositories {
- //   jcenter()
-//}
+repositories {
+  jcenter()
+}
 
-//dependencies {
- //   testCompile 'junit:junit:4.12'
-  //  testCompile 'org.mockito:mockito-core:1.+'
-//}
+dependencies {
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:1.+'
+}
 mainClassName = 'com.cg.test.BankTest' 
 
 
