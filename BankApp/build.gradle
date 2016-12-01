@@ -2,24 +2,24 @@
 apply plugin : 'java'
 apply plugin : 'application'
 
-apply plugin : 'sonar-runner'
+//apply plugin : 'sonar-runner'
 
-repositories {
-    jcenter()
-}
+//repositories {
+ //   jcenter()
+//}
 
-dependencies {
-    testCompile 'junit:junit:4.12'
-    testCompile 'org.mockito:mockito-core:1.+'
-}
-mainClassName = 'com.cg.test.BankTest' 
+//dependencies {
+ //   testCompile 'junit:junit:4.12'
+  //  testCompile 'org.mockito:mockito-core:1.+'
+//}
+//mainClassName = 'com.cg.test.BankTest' 
 
 
-sonarRunner{
+//sonarRunner{
 
-sonarProperties{
-property "sonar.projectName", "PoojaChandakBankApp"
-property "sonar.projectKey" , "org.sonarqube:java-gradle-simple"
+//sonarProperties{
+//property "sonar.projectName", "PoojaChandakBankApp"
+//property "sonar.projectKey" , "org.sonarqube:java-gradle-simple"
 
-}
-}
+//}
+//}
